@@ -11,9 +11,9 @@
  */
 package com.monkeyk.os.service.dto;
 
-import org.apache.shiro.authc.UsernamePasswordToken;
-
 import java.io.Serializable;
+
+import org.apache.shiro.authc.UsernamePasswordToken;
 
 /**
  * 15-6-10
@@ -22,8 +22,9 @@ import java.io.Serializable;
  */
 public class LoginDto implements Serializable {
 
-
-    private String username;
+	private static final long serialVersionUID = -4673722420849142839L;
+	
+	private String username;
     private String password;
 
     public LoginDto() {

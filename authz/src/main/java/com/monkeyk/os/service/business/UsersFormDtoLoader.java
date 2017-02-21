@@ -1,13 +1,12 @@
 package com.monkeyk.os.service.business;
 
+import java.util.List;
+
 import com.monkeyk.os.domain.shared.BeanProvider;
 import com.monkeyk.os.domain.users.Roles;
 import com.monkeyk.os.domain.users.UsersAuthzRepository;
-import com.monkeyk.os.domain.users.UsersRepository;
 import com.monkeyk.os.service.dto.RolesDto;
 import com.monkeyk.os.service.dto.UsersFormDto;
-
-import java.util.List;
 
 /**
  * 2016/6/7
